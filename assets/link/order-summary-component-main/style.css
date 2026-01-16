@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+:root{
+  --Blue-100: hsl(225, 100%, 94%);
+  --Blue-700: hsl(245, 75%, 52%);
+  --Blue-50: hsl(225, 100%, 98%);
+  --Gray-600: hsl(224, 23%, 55%);
+  --Blue-950: hsl(223, 47%, 23%);
+  --fs-md: 13px;
+  --fslg: 1.2rem; 
+}
+h1, h4{
+    color: var(--Blue-950);
+}
+p{
+   color: var(--Gray-600); 
+   font-style: var(--fs-md);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Blue-100);
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 768px) {
+        background-image: url("/images/pattern-background-desktop.svg");
+    }
+    .card{
+        width: 300px;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        .main-img{
+            width: 100%;
+        }
+        .card-content{
+            padding: 1.6rem 2rem 2rem;
+            .content{
+                h1{
+                    font-weight: 900;
+                    font-size: var(--fs-lg);
+                }
+                p{
+                    margin: 0.8rem 0;
+                    line-height: 1.4;
+                }
+            }
+            .plan-card{
+                background-color: var(--Blue-50);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 10px;
+                padding: 0.7rem;
+                .plan-content{
+                    display: flex;
+                    gap: 0.8rem;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        object-fit: contain;
+                    }
+                    .plan{
+                       h4{
+                        font-weight: 900;
+                        font-style: var(--fs-md);
+                       }
+                       p{
+
+                       } 
+                    }
+                }
+                a{
+                    color: var(--Blue-700);
+                    font-size: var(--fs-md);
+                    font-weight: 700;
+                }
+            }
+            button{
+                background-color: var(--Blue-700);
+                border: 0;
+                width: 100%;
+                color: #fff;
+                margin: 1.2rem 0;
+                border-radius: 0.4rem;
+                padding: 0.6rem 0;
+                box-shadow: 0 10px 10px var(--Blue-100);
+                font-weight: 700;
+            }
+            .cancel{
+                text-decoration: none;
+                font-style: var(--fs-md);
+                font-weight:900;
+                color: var(--Gray-600);
+            }
+        }
+    }
+}

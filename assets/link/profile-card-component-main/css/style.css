@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+:root {
+  --Blue-600: hsl(185, 75%, 39%);
+  --Navy-950: hsl(229, 23%, 23%);
+  --Gray-500: hsl(227, 10%, 46%);
+  --Gray-100: hsl(225, 10%, 92%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* font-variation-settings: */
+  /* "YOPQ" 300; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--Blue-600);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .back-one{
+    position: relative;
+    margin-top: -50rem;
+  }
+  .back-two{
+    position: relative;
+    margin-bottom: -50rem;
+    margin-left: -2rem;
+  }
+  .card {
+    background-color: var(--Gray-100);
+    overflow: hidden;
+    border-radius: 5px;
+    position: absolute;
+    .profile {
+      .background {
+        background-image: url(../images/bg-pattern-card.svg);
+      }
+      .photo {
+        border-radius: 50px;
+        margin-left: -14rem;
+        margin-top: 5rem;
+        position: absolute;
+      }
+    }
+    .content {
+        padding-top: 3.9rem;
+        text-align: center;
+      h5 {
+      }
+      p {
+      }
+      address{
+        margin-bottom: 1.3rem;
+      }
+      .footer-parents {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem 0;
+        .footer-one {
+        }
+        .footer-two {
+        }
+        .footer-three {
+        }
+      }
+    }
+  }
+}

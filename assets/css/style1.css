@@ -1,0 +1,414 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #750bd1, #350b64);
+  display: flex;
+  justify-content: center;
+  .card {
+    width: 500px;
+    /* height: 600px; */
+    margin: 50px;
+    border-radius: 0.8rem;
+    background-color: #750bd1;
+    box-shadow: 2px 4px 10px rgb(56, 47, 47);
+    .music {
+      display: flex;
+      .baby {
+        margin-left: 6.4rem;
+      }
+      .cor {
+        margin-left: 8.1rem;
+      }
+      img {
+        width: 2rem;
+        margin: 0.7rem;
+        border-radius: 0.2rem;
+        box-shadow: 2px 4px 10px rgb(56, 47, 47);
+      }
+      h4 {
+        display: inline;
+        margin-top: 0.7rem;
+        margin-left: 0.5rem;
+      }
+      p {
+        margin-top: 1.8rem;
+        margin-left: 4rem;
+        position: absolute;
+      }
+      audio {
+        width: 13rem;
+        height: 2rem;
+        margin-top: 0.7rem;
+        /* margin-left: 6rem; */
+        border-radius: 0.9rem;
+        box-shadow: 2px 4px 10px rgb(56, 47, 47);
+      }
+    }
+    .music1 {
+      audio {
+        margin-left: 6.1rem;
+      }
+    }
+    .music2 {
+      audio {
+        margin-left: 9.1rem;
+      }
+    }
+    .music4 {
+      audio {
+        margin-left: 8.1rem;
+      }
+    }
+    /* .music5{
+      audio{
+        margin-left: 19rem;
+      }
+    } */
+    .music6 {
+      audio {
+        margin-left: 7.7rem;
+      }
+    }
+    .music7 {
+      .baby {
+        margin-left: 9.2rem;
+      }
+    }
+    .music9 {
+      audio {
+        margin-left: 7.5rem;
+      }
+    }
+    .music10 {
+      audio {
+        margin-left: 4.6rem;
+      }
+    }
+    .music11 {
+      audio {
+        margin-left: 9.6rem;
+      }
+    }
+    .music12 {
+      .black {
+        margin-left: 8.7rem;
+      }
+    }
+    .music13 {
+      audio {
+        margin-left: 6.8rem;
+      }
+    }
+    .music14 {
+      audio {
+        margin-left: 6rem;
+      }
+    }
+    .music15 {
+      audio {
+        margin-right: 3rem;
+        margin-left: 0.6rem;
+        width: 19rem;
+      }
+    }
+    .music16 {
+      audio {
+        margin-left: 10.3rem;
+      }
+    }
+    .music17 {
+      audio {
+        margin-left: 6.2rem;
+      }
+    }
+    .music18 {
+      audio {
+        margin-left: 7rem;
+      }
+    }
+    .music19 {
+      audio {
+        margin-left: 8.5rem;
+      }
+    }
+    .music20 {
+      audio {
+        margin-left: 1.5rem;
+      }
+    }
+    .music21 {
+      audio {
+        margin-left: 9rem;
+      }
+    }
+    .music22 {
+      audio {
+        margin-left: 8rem;
+      }
+    }
+    .music23 {
+      audio {
+        margin-left: 8.5rem;
+      }
+    }
+    .music24 {
+      audio {
+        margin-left: 7.1rem;
+      }
+    }
+    .music25 {
+      audio {
+        margin-left: 5.2rem;
+      }
+    }
+    .music26 {
+      audio {
+        margin-left: 8rem;
+      }
+    }
+    .music27 {
+      audio {
+        margin-left: 8.2rem;
+      }
+    }
+    .music28 {
+      audio {
+        margin-left: 8.2rem;
+      }
+    }
+    .music29 {
+      audio {
+        margin-left: 6.7rem;
+      }
+    }
+    .music30 {
+      audio {
+        margin-left: 7rem;
+      }
+    }
+    .music31 {
+      audio {
+        margin-left: 6.5rem;
+      }
+    }
+    .music32{
+      audio{
+        margin-left: 9rem;
+      }
+    }
+    .music33{
+      audio{
+        margin-left: 9.4rem;
+      }
+    }
+    .music34{
+      audio{
+        margin-left: 9.5rem;
+      }
+    }
+    .music35{
+      audio{
+        margin-left: 8.7rem;
+      }
+    }
+    .music36{
+      audio{
+        margin-left: 9.7rem;
+      }
+    }
+    .music37{
+      audio{
+        margin-left: 9rem;
+      }
+    }
+    .music38{
+      audio{
+        margin-left: 9.5rem;
+      }
+    }
+    .music39{
+      audio{
+        margin-left: 6.5rem;
+      }
+    }
+    .music40{
+      audio{
+        margin-left: 9.9rem;
+      }
+    }
+    .music41{
+      audio{
+        margin-left: 9.8rem;
+      }
+    }
+    .music42{
+      audio{
+        margin-left: 10rem;
+      }
+    }
+    .music43{
+      audio{
+        margin-left: 12rem;
+      }
+    }
+    .music44{
+      audio{
+        margin-left: 8rem;
+      }
+    }
+    .music45{
+      audio{
+        margin-left: 7rem;
+      }
+    }
+    .music46{
+      audio{
+        margin-left: 3.5rem;
+      }
+    }
+    .music47{
+      audio{
+        margin-left: 8.2rem;
+      }
+    }
+    .music48{
+      audio{
+        margin-left: 6rem;
+      }
+    }
+    .music49{
+      audio{
+        margin-left: 9rem;
+      }
+    }
+    .music50{
+      audio{
+        margin-left: 1.5rem;
+      }
+    }
+    .music51{
+      audio{
+        margin-left: 9.5rem;
+      }
+    }
+    .music52{
+      audio{
+        margin-left: 10rem;
+      }
+    }
+    .music53{
+      audio{
+        margin-left: 10.5rem;
+      }
+    }
+    .music54{
+      audio{
+        margin-left: 7.5rem;
+      }
+    }
+    .music55{
+      audio{
+        margin-left: 7rem;
+      }
+    }
+    .music56{
+      audio{
+        margin-left: 8.5rem;
+      }
+    }
+    .music57{
+      audio{
+        margin-left: 10.5rem;
+      }
+    }
+    .music58{
+      audio{
+        margin-left: 9.8rem;
+      }
+    }
+    .music59{
+      audio{
+        margin-left: 6.7rem;
+      }
+    }
+    .music60{
+      audio{
+        margin-left: 7.7rem;
+      }
+    }
+    .music61{
+      audio{
+        margin-left: 7.2rem;
+      }
+    }
+    .music62{
+      audio{
+        margin-left: 2.1rem;
+      }
+    }
+    .music63{
+      audio{
+        margin-left: 7.3rem;
+      }
+    }.music64{
+      audio{
+        margin-left: 10.5rem;
+      }
+    }
+    .music65{
+      audio{
+        margin-left: 7.3rem;
+      }
+    }
+    .music67{
+      audio{
+        margin-left: 7rem;
+      }
+    }
+    .music68{
+      audio{
+        margin-left: 8.8rem;
+      }
+    }
+    .music69{
+      audio{
+        margin-left: 7.5rem;
+      }
+    }
+    .music70{
+      audio{
+        margin-left: 7.5rem;
+      }
+    }
+    .music71{
+      audio{
+        margin-left: 4.7rem;
+      }
+    }
+    .music72{
+      audio{
+        margin-left: 4.4rem;
+      }
+    }
+    .music73{
+      audio{
+        margin-left: 8rem;
+      }
+    }
+    .music74{
+      audio{
+        margin-left: 9.3rem;
+      }
+    }
+    .music75{
+      audio{
+        margin-left: 8rem;
+      }
+    }
+  }
+}
