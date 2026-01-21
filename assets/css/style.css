@@ -4,6 +4,14 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  line-height: 1.1rem;
+  @media (max-width: 768px) {
+    line-height: 1.1rem;
+    /* padding: 0.5rem; */
+  }
+}
+body {
+  overflow-x: hidden;
 }
 * {
   padding: 0;
@@ -22,9 +30,10 @@
   .about-me {
     width: 100vw;
     margin-top: 2rem;
+    padding: 3rem;
     display: flex;
     justify-content: space-evenly;
-    gap: 1rem;
+    gap: 1.5rem;
     overflow: hidden;
     .about-me1 {
       width: 40rem;
@@ -43,13 +52,16 @@
         justify-content: center;
         background-color: palevioletred;
         padding: 0.7rem 0 0.7rem 0;
+        @media (max-width: 768px) {
+          margin-bottom: 0.5rem;
+        }
       }
     }
   }
   .about-me2 {
     width: 40rem;
     /* min-height: 1rem; */
-    line-height: 1.1rem;
+    /* line-height: 1.1rem; */
     background-color: rgb(237, 135, 152);
     border-radius: 0.4rem;
     box-shadow: 2px 4px 10px rgb(158, 150, 150);
@@ -64,12 +76,22 @@
       justify-content: center;
       background-color: palevioletred;
       padding: 0.7rem 0 0.7rem 0;
+      @media (max-width: 768px) {
+        margin-bottom: 0.5rem;
+      }
     }
   }
   .project {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    @media (max-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      place-items: center;
+      gap: 1rem;
+    }
     .project-card {
       width: 14rem;
       min-height: 17rem;
@@ -79,6 +101,7 @@
       img {
         width: 14rem;
         min-height: 10rem;
+        object-fit: cover;
       }
       .button {
         margin-top: 2rem;
@@ -107,6 +130,12 @@
       font-size: small;
     }
   }
+  /* @media screen and (max-width: 768px) {
+    .project > .project-card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  } */
 }
 h1 {
   font-style: italic;
@@ -115,18 +144,29 @@ h1 {
   justify-content: space-evenly;
 }
 .img-card {
+  width: 87.8rem;
   background-color: rgb(232, 71, 125);
-  margin-top: 1rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   border-radius: 1rem;
   box-shadow: 2px 4px 10px rgb(158, 150, 150);
   display: flex;
   justify-content: space-evenly;
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 16rem;
+    margin-left: 4rem;
+    gap: 1rem;
+  }
   img {
     width: 12rem;
+    object-fit: cover;
   }
 }
 .nav-bar {
-  width: 100vw;
+  width: 87.8rem;
   min-height: 10vh;
   background-color: rgb(237, 135, 152);
   display: flex;
@@ -134,13 +174,21 @@ h1 {
   justify-content: end;
   /* padding: 0.1rem; */
   position: sticky;
-  top: 5px;
+  top: 0;
   border-radius: 1rem;
+  @media (max-width: 768px) {
+    width: 22.1rem;
+    /* margin-top: 1rem; */
+  }
   .link {
     margin-right: 1rem;
     margin-top: 1rem;
     display: flex;
     gap: 0.6rem;
+    @media (max-width: 768px) {
+      margin-top: 2rem;
+      margin-right: 7rem;
+    }
     a {
       color: rgb(0, 0, 0);
       text-decoration: none;
