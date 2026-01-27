@@ -49,3 +49,5 @@
           <p></p>
           <audio src="assets/music/Handlebars - JENNIE and Dua Lipa.m4a" controls></audio>
         </div>
+
+        height="55rem"
