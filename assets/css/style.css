@@ -28,12 +28,15 @@ body {
   @media (max-width: 768px) {
     width: 27.1rem;
   }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 133.5vw;
+  }
   .about-me {
     margin-top: 2rem;
-    padding: 3rem;
+    padding: 5rem;
     display: flex;
     justify-content: space-evenly;
-    gap: 0.8rem;
+    gap: 3.5rem;
     overflow: hidden;
     @media (max-width: 768px) {
       margin-right: 0.3rem;
@@ -95,6 +98,7 @@ body {
     @media (min-width: 768px) and (max-width: 1024px) {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      margin-right: 4rem;
     }
     .project-card {
       width: 14rem;
@@ -157,6 +161,14 @@ body {
       @media (max-width: 768px) {
         margin-top: 0.8rem;
       }
+      @media (min-width: 768px) and (max-width: 1024px){
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+      }
+      @media (min-width: 768px) and (max-width: 1024px) {
+        width: 28rem;
+      }
       .cer-img {
         width: 20rem;
         @media (max-width: 768px) {
@@ -188,7 +200,8 @@ body {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 0;
-      margin-left: 3rem;
+      margin-left: 4.2rem;
+      width: 56rem;
     }
     img {
       width: 12rem;
@@ -200,7 +213,7 @@ body {
     }
   }
   .nav-bar {
-    /* width: 98.7rem; */
+    width: 79rem;
     min-height: 10vh;
     /* margin-left: 1.2rem; */
     margin-right: 1.2rem;
@@ -214,7 +227,7 @@ body {
     border-radius: 1rem;
     @media (max-width: 768px) {
       width: 26.9rem;
-      height: 1.5rem;
+      height: 6rem;
       margin-left: 0;
     }
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -224,9 +237,9 @@ body {
     }
     .boy-stickers {
       display: flex;
-      /* margin-right: 65rem; */
+      margin-bottom: 1rem;
       width: 0.8rem;
-      margin-right: 80rem;
+      margin-right: 62rem;
       @media (max-width: 768px) {
         width: 0.8rem;
         margin-top: 0.5rem;
@@ -259,10 +272,9 @@ body {
       margin-right: 1rem;
       margin-top: 1rem;
       display: flex;
-      /* justify-content: center; */
       gap: 0.6rem;
       @media (max-width: 768px) {
-        /* margin-right: 7.5rem; */
+        margin-top: 1.5rem;
       }
       @media (min-width: 768px) and (max-width: 1024px) {
         margin-top: 2rem;
@@ -289,7 +301,7 @@ body {
   .birth {
     display: grid;
     place-items: center;
-    margin-left: 43rem;
+    margin-left: 33rem;
     margin-bottom: 3rem;
     width: 15rem;
     background-color: #ff9cce;
